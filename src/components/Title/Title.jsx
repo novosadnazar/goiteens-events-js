@@ -1,3 +1,4 @@
+import {Caption} from "./Title.style"
 export const Title = ({ text }) => {
-    return <h1>{text}</h1>
+    return <Caption>{text}</Caption>;
 }

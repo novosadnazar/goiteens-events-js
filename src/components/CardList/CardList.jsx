@@ -1,3 +1,4 @@
+import {List} from "./CardList.style"
 export const CardList = ({ children }) => {
-  return <ul>{children}</ul>; 
+  return <List>{children}</List>; 
 };
